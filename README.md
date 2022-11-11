@@ -8,13 +8,13 @@ Uma modelagem de representação genérica de um email
 
 Todo e-mail criado deve possuir os campos:
 
-Endereço de e-mail da pessoa remetente
+Endereço de e-mail da pessoa remetente(from)
 
-Endereço de e-mail da pessoa destinatária
+Endereço de e-mail da pessoa destinatária(to)
 
-Assunto da mensagem, que não pode ter mais de 20 caracteres
+Assunto da mensagem, que não pode ter mais de 20 caracteres(subject)
 
-Mensagem
+Mensagem(message)
 
 Todo e-mail criado deve ter sua representação textual, que combina todos os dados em uma string única
 
