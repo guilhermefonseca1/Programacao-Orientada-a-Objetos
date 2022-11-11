@@ -25,4 +25,10 @@ class Email {
     get to() { return this._to;}
     get subject() { return this._subject || ''; }
     get message() { return this._message;}
+
+    get content() {
+        return `
+        From ${this.from} to ${this.to}
+        ${this.message}`;
+    }
 }
