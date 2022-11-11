@@ -94,3 +94,7 @@ const email3 = new Email(
     //MESSAGE
     'Hi, did you know cat today ?'
 )
+
+const personalMailList = new MailList([email1, email2]);
+const professionalMailList = new MailList([email3]);
+
