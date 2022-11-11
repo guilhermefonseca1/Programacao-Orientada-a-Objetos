@@ -98,3 +98,5 @@ const email3 = new Email(
 const personalMailList = new MailList([email1, email2]);
 const professionalMailList = new MailList([email3]);
 
+console.log('------ personalMailList.getByEmailFrom(\'me@person.com\'):');
+professionalMailList.getByEmailFrom('me@person.com').forEach((mail) => console.log(mail.content));
