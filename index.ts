@@ -61,3 +61,36 @@ getBySubject(searchString: string): Email[] {
     return this.mailList.filter((mail) => mail.subject.indexOf(searchString) !== -1);
 };
 }
+
+const email1 = new Email(
+    //FROM
+    'me@person.com',
+    //TO
+    'guil@persom.com',
+    //SUJECT
+    'Food',
+    //MESSAGE
+    'Hi, did you know food today ?'
+)
+
+const email2 = new Email(
+    //FROM
+    'CACA@person.com',
+    //TO
+    'MAMA@persom.com',
+    //SUJECT
+    'Dog',
+    //MESSAGE
+    'Hi, did you know dog today ?'
+)
+
+const email3 = new Email(
+    //FROM
+    'random@person.com',
+    //TO
+    'débora@persom.com',
+    //SUJECT
+    'cat',
+    //MESSAGE
+    'Hi, did you know cat today ?'
+)
