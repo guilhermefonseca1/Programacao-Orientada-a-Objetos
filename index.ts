@@ -32,3 +32,9 @@ class Email {
         ${this.message}`;
     }
 }
+
+class MailList {
+    constructor(private mailList: Email[]) {
+        
+    }
+}
