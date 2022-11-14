@@ -36,3 +36,10 @@ RODE: npx ts-node index.ts no terminal para visualizar o resultado
 No arquivo index.heranca.ts
 
 - Criar uma class Carro
+- Criar os atributos:
+*brand(fabricante)
+*automaker(montadora)
+
+- Criar uma função de aceleração(speed)
+- Criando constructor que irá erdar os atributos da mãe
+*Aqui é preciso utilizar o super no constructor
