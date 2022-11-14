@@ -43,3 +43,4 @@ No arquivo index.heranca.ts
 - Criar uma função de aceleração(speed)
 - Criando constructor que irá erdar os atributos da mãe
 *Aqui é preciso utilizar o super no constructor
+- Configurar e acessar o método speed

@@ -11,6 +11,10 @@ class Car extends Vehicle {
     constructor(
         brand: string,
         automaker: string) { 
-            super(brand, automaker)
+            super(brand, automaker);
+        }
+
+        public speed(): string {
+            return super.speed() + `Acelera o ${this.brand}!`
         }
 }
