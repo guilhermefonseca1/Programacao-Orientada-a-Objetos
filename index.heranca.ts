@@ -3,6 +3,7 @@ class Vehicle {
         public brand: string,
         private automaker: string) {}
         public speed(): string{
+            console.log(`O ${this.brand} acelera!`);
             return `O ${this.brand} acelera!`;
         }
 }
@@ -15,6 +16,7 @@ class Car extends Vehicle {
         }
 
         public speed(): string {
+            console.log(`Acelera o ${this.brand}!!`);
             return super.speed() + `Acelera o ${this.brand}!`
         }
 }
