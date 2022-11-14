@@ -20,3 +20,6 @@ class Car extends Vehicle {
             return super.speed() + `Acelera o ${this.brand}!`
         }
 }
+
+const carro = new Car("Polo", "VW");
+carro.speed();

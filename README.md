@@ -45,3 +45,4 @@ No arquivo index.heranca.ts
 *Aqui é preciso utilizar o super no constructor
 - Configurar e acessar o método speed
 *O método "speed" é criado na classe "Vehicle" e herdado na classe "car"
+- Criar objetos com o nome so carro e a montadora
